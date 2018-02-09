@@ -7,7 +7,7 @@ make html
 # package the docs
 cd _build/html
 tar czf ~/html.tgz .
-cd ../../..
+cd ../../../..
 # checkout doc branch
 git checkout gh-pages
 
