@@ -14,5 +14,6 @@ install:
 - travis_retry pip install tox
 - travis_retry pip install sphinx
 - travis_retry pip install sphinx_rtd_theme
+
 script:
 -   tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d .)
