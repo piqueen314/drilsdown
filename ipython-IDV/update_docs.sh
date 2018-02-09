@@ -8,7 +8,7 @@ make html
 cd _build/html
 tar czf ~/html.tgz .
 cd ../../../..
-rm -fr ../ipython-IDV
+rm -fr docs
 # checkout doc branch
 git checkout gh-pages
 
