@@ -7,7 +7,7 @@ make html
 # package the docs
 cd _build/html
 tar czf ~/html.tgz .
-cd ../../../..
+cd ../../..
 # checkout doc branch
 git checkout gh-pages
 
@@ -18,6 +18,8 @@ if [ $current_branch = "gh-pages" ]; then
     git rm -rf ../ipython-IDV
     git rm -rf ../RAMADDAplugin
     rm -fr docs
+    cd ..
+    rm -fr ipython-IDV
     rm -fr .idea
 
     tar xzf ~/html.tgz
