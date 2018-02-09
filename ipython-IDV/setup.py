@@ -14,7 +14,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setuptools.setup(
     name="drilsdown",
     version=__version__,
-    url="https://github.com/Unidata/ipython-IDV.git",
+    url="https://github.com/Unidata/drilsdown.git",
     author="Drilsdown team",
     author_email="drilsdown@unidata.ucar.edu",
     description="This project allows users to use Unidata's IDV with jupyter notebooks ",
