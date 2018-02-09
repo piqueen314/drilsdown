@@ -15,7 +15,8 @@ git checkout gh-pages
 current_branch=$(git branch | grep \* | cut -d ' ' -f2-)
 if [ $current_branch = "gh-pages" ]; then
     # clear out old docs
-    git rm -rf .
+    git rm -rf ../ipython-IDV
+    git rm -rf ../RAMADDAplugin
     rm -fr docs
     rm -fr .idea
 
