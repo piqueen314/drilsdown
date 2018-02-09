@@ -18,9 +18,8 @@ if [ $current_branch = "gh-pages" ]; then
     git rm -rf ../ipython-IDV
     git rm -rf ../RAMADDAplugin
     rm -fr docs
-    cd ..
-    rm -fr ipython-IDV
-    rm -fr .idea
+    rm -fr ../ipython-IDV
+    rm -fr ../.idea
 
     tar xzf ~/html.tgz
     # commit and push new docs
