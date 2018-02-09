@@ -9,6 +9,7 @@ cd _build/html
 tar czf ~/html.tgz .
 cd ../../../..
 rm -fr docs
+rm -fr ../.idea
 # checkout doc branch
 git checkout gh-pages
 
