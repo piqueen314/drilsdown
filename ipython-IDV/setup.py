@@ -3,7 +3,7 @@ from os import path
 
 import setuptools
 
-from ipythonExtension.drilsdown import __version__
+from ipython-IDV.drilsdown import __version__
 
 here = path.abspath(path.dirname(__file__))
 
