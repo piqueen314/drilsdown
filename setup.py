@@ -39,6 +39,6 @@ setuptools.setup(
 
         ],
     },
-    package_dir={"ipython-IDV": 'drilsdown'},
+    package_dir={"ipython-IDV": 'ipython-IDV.drilsdown'},
     include_package_data=True,
 )
